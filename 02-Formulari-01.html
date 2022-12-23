@@ -13,9 +13,9 @@
 </head>
 <body>
     <h1>Meu primeiro Formulario</h1>
-    <form autocomplete="off" action="cadastro.php"><!--Se botar autocomplete"off" dentro da tag, fará que n apareça sugestão de palavras dentro da caixa, js usa o id para achar as coisas, pqp usa o name, sempre use o label.-->
+    <form autocomplete="off" action="cadastro.php" method="get" ><!--Se botar autocomplete"off" dentro da tag, fará que n apareça sugestão de palavras dentro da caixa, js usa o id para achar as coisas, pqp usa o name, sempre use o label.-->
         <p><label for="inome">Nome: </label><input type="text" name="nome" id="inome"> </p>
-        <p><label for="isobrenome">Sobrenome: </label><input type="text" name="isobrenome" id="sobrenome"></p>
+        <p><label for="isobrenome">Sobrenome: </label><input type="text" name="isobrenome" id="isobrenome"></p>
         <p><input type="submit" value="Enviar"></p>
     </form>
     
